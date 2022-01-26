@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio | Kyori Tandiah</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/navbarToggle.png" alt="" id="navbarToggle" />
+      <ul id="navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="home">
+      <div class="container">
+        <div class="caption">
+          <p id="hello">Hello,</p>
+          <h1>I'm <span class="name">Kyori Tandiah</span></h1>
+          <p>Front-End Developer</p>
+          <a href="#portfolio"><button>Portfolio</button></a>
+        </div>
+        <div class="photo">
+          <img src="./assets/photo.svg" alt="photo" />
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="aboutPhoto">
+          <img src="./assets/photo2.png" alt="profilePhoto" />
+        </div>
+        <div class="aboutCaption">
+          <h1>About Me</h1>
+          <p>
+            Hi, I am Kyori. I am a front-end developer who is also an undergraduate information systems student at Binus University. I choose this major because I have big interests in business, technology, and especially making websites. I
+            have a great desire to learn something that I like. I hope that through technology, I can contribute to society.
+          </p>
+          <table>
+            <tr id="title">
+              <th colspan="2">Education</th>
+            </tr>
+            <tr id="subtitle">
+              <th id="desc">Description</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>Kalam Kudus Senior High School Pematangsiantar - Science major</td>
+              <td>2018-2021</td>
+            </tr>
+            <tr>
+              <td>Binus University - Information Systems</td>
+              <td>2021-now</td>
+            </tr>
+          </table>
+          <h4>Skills</h4>
+          <div class="skills">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/microsoft.png" alt="card_img1" />
+              </div>
+              <div class="card-description">Microsoft Office</div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/figma.png" alt="card_img2" />
+              </div>
+              <div class="card-description">Figma</div>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/htmlcss.png" alt="card_img3" />
+              </div>
+              <div class="card-description">HTML and CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1>Portfolio</h1>
+        <div class="slider"></div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="contactform">
+          <h1>Contact Me</h1>
+          <form action="#">
+            <div class="form-container">
+              <label class="form-label" for="name">Name</label>
+              <input id="name" type="text" />
+            </div>
+            <div class="form-container">
+              <label class="form-label" for="email">Email</label>
+              <input id="email" type="email" />
+            </div>
+            <div class="form-container">
+              <label class="form-label" for="linkedIn">LinkedIn</label>
+              <input id="linkedIn" type="text" />
+            </div>
+            <div class="form-container">
+              <label class="form-label" for="textarea">Comment</label>
+              <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+            </div>
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h4>Created with ♡ by Kyori Tandiah</h4>
+      <div class="footerLink">
+        <a href="https://github.com/kyoritandiah15"><img src="./assets/icons/github.png" alt="github" /></a>
+        <a href="https://www.instagram.com/kyoritandiah/"><img src="./assets/icons/instagram.png" alt="instagram" /></a>
+        <a href="https://www.linkedin.com/in/kyoritandiah/"><img src="./assets/icons/linkedin.png" alt="linkedin" /></a>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
